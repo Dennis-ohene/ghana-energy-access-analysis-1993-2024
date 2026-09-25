@@ -2,7 +2,7 @@
 
 End-to-end analysis of electricity access, GDP growth, and population in Ghana using World Development Indicators (WDI) data.
 
-![Dashboard Preview](Ghana Electricity, Population & GDP Analysis.png)
+![Dashboard Preview](dashboard.png)
 
 ### 📂 Data Source
 World Development Indicators (WDI) - World Bank (1993-2024)
