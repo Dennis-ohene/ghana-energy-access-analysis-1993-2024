@@ -22,7 +22,8 @@ World Development Indicators (WDI) - World Bank (1993-2024)
 SELECT *,
 Population_total,(Population_total - LAG(Population_to
 tal) OVER(ORDER BY year)) * 100 / LAG(Population_total) OVER(ORDER BY year) AS tot_pop_grt_pct
-FROM electricity.peg;
+FROM electricity.peg;```
+```
 
 **3. Python - Analysis**
 - Imported cleaned data using Pandas
@@ -32,6 +33,7 @@ FROM electricity.peg;
 import pandas as pd
 electricity = pd.read_csv(r'C:\Users\JESSICA\Downloads\Electricity Access\pop_ele_gdp.csv')
 print(electricity['acc_to_ele_pct_pop'].corr(electricity['pop_tot']))
+```
 
 **4. Power BI - Visualization**
 - Built dashboard with KPIs, trends, and GDP vs Access analysis
